@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/donation.css">
+    <style>
+        /* Target the navbar with the ID 'mainNav' */
+        #mainNav {
+            background-color: #ffff;
+            align-items: center; /* Center vertically */
+            justify-content: center; /* Center horizontally */
+            height: 100px; /* Adjust the height as needed */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+         /* Center the navigation items */
+         #mainNav .navbar-nav .nav-item {
+            margin-right: 10px; /* Adjust as needed */
+        }
+
+        #mainNav .navbar-nav .nav-item:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+ <!-- Navigation-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive"></div>
+            <ul class="navbar-nav ms-auto">
+                <class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                <class="nav-item"><a class="nav-link" href="edu.html">Educaitonal Resources</a>
+                <class="nav-item"><a class="nav-link" href="about.html">About</a>
+                <class="nav-item"><a class="nav-link" href="contribution.html">Contribute</a>
+                <class="nav-item"><a class="nav-link" href="location.html">Locations</a>
+                <class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a>
+                <class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a>
+                <class="nav-item"><a class="nav-link" href="donation.html">Donation</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    
+    <form action="">
+
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Information</h3>
+                <div class="inputBox">
+                    <span>first Name *</span>
+                    <input type="text" placeholder="First Name " required>
+                </div>
+                <div class="inputBox">
+                    <span>Last name *</span>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <div class="inputBox">
+                    <span>Email *</span>
+                    <input type="text" placeholder="Example@gmail.com" required>
+                </div>
+                <div class="inputBox">
+                    <span>Address *</span>
+                    <input type="text" placeholder="Street " required>
+                </div>
+                <div class="inputBox">
+                    <span>City *</span>
+                    <input type="text" placeholder="City" required>
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>State *</span>
+                        <input type="text" placeholder="States" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Zip Code *</span>
+                        <input type="text" placeholder="12345" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h3 class="title">Donation</h3>
+                <div class="inputBox">
+                    <span>Amount *</span>
+                    <input type="text" placeholder="$20" required>
+                </div>
+                <div class="inputBox">
+                    <span>cards accepted </span>
+                    <img src="images/card_img.png" alt="i">
+                </div>
+                <div class="inputBox">
+                    <span>Name on Card *</span>
+                    <input type="text" placeholder="Name on Card" required>
+                </div>
+               
+                <div class="inputBox">
+                    <span>Credit card number *</span>
+                    <input type="text" placeholder="1111-1111-1111-1111 " required>
+                </div>
+                <div class="inputBox">
+                    <span>Exp Month *</span>
+                    <input type="text" placeholder="Month" required>
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Exp year *</span>
+                        <input type="text" placeholder="2023" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV *</span>
+                        <input type="text" placeholder="1234" required>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <input type="submit" value="Submit" class="submit-btn">
+
+    </form>
+</div>
+
+<body>
+    <script src="js/donation.js"></script>
+</body>
+
+</html>
